@@ -72,7 +72,7 @@ nav .nav-logo {
 .card-one {
     display: flex;
     flex-direction: column;
-    max-width: 176px;
+    max-width: 250px;
     padding: 2em;
 }
 
@@ -85,7 +85,8 @@ nav .nav-logo {
 }
 
 .card-one .card-content .grey {
-    color: #918E9B
+    color: #918E9B;
+    font-size: 12px;
 }
 
 .card-one 
@@ -124,4 +125,10 @@ nav .nav-logo {
 .card-content
 .other-content .card-price {
     font-size: 12px;
+}
+
+.card-one 
+.card-content
+.other-content .bold {
+    font-weight: bold;
 }

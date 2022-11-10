@@ -14,14 +14,13 @@ export default function Card() {
                         <div className="card-content">
                             <div className="card-status">
                                 <img src={Star} alt="Star image" className="star-img"/>
-                                <span>5.0</span>
+                                <span className="grey">5.0</span>
                                 <span className="grey">(6) • </span>
-                                <span className="grey">USA</span>
+                                <span className="grey"> USA</span>
                             </div>
                             <div className="other-content">
-                                <div className="card-desc">Life lessons with Katie Zaferes</div>
-                                <div className="card-price"><b>From $136</b> / person</div>
-                            </div>
+                                <p className="card-desc">Life lessons with Katie Zaferes</p>
+                                <p className="card-price"><span className="bold">From $136</span> / person</p>                         </div>
                         </div>
                     </div>
                 </div>
