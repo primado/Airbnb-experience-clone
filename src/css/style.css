@@ -74,10 +74,24 @@ nav .nav-logo {
     flex-direction: column;
     max-width: 250px;
     padding: 2em;
+    position: relative;
 }
 
 .card-one .swimmer-img {
     max-width: 100%;
+    
+}
+
+.card-one .card--badge {
+    position: absolute;
+    background-color: #fff;
+    top: 40px;
+    left: 45px;
+    color: #000;
+    padding: 5px 7px;
+    font-weight: bold;
+    font-size: 10px;
+
 }
 
 .card-one .card-content {
@@ -131,4 +145,10 @@ nav .nav-logo {
 .card-content
 .other-content .bold {
     font-weight: bold;
+}
+
+.coverImg-flex {
+    display: flex;
+    flex-direction: row;
+    
 }
